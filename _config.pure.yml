@@ -56,12 +56,12 @@ pagination:
 # Sidebar
 sidebar: right
 widgets:
-  # - board
-  - category
-  - tag
-  - tagcloud
-  - archive
-  - recent_posts
+  # - board # 公告
+  - category # 分类
+  - tag # 标签
+  - tagcloud # 标签云
+  - archive # 归档
+  - recent_posts # 最近文章
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -129,15 +129,17 @@ comment:
     ClientID: #必须. GitHub Application Client ID.
     ClientSecret: #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org
-    appid: # your leancloud application appid
-    appkey: # your leancloud application appkey
-    notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+    appid: z81raFUtFkjK6eSoP1GCitDI-gzGzoHsz # your leancloud application appid
+    appkey: 4od8kI5TYyGTLx52wAuC3m0U # your leancloud application appkey
+    notify: true # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
     placeholder: 写个评论吧 # comment box placeholder
     avatar: mm # gravatar style
     meta: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
-    visitor: false # Article reading statistic https://valine.js.org/visitor.html
+    visitor: true # Article reading statistic https://valine.js.org/visitor.html
+    highlight: true # 代码高亮
+    recordIP: true # 记录评论者的IP
 
 # douban 豆瓣书单
 # Api：
@@ -190,7 +192,7 @@ profile:
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: Amimg
   author_title: 前端开发 & 老混子
-  author_description: 个人简介232。
+  author_description: 一个混迹在前端圈多年的老混子。
   location: Shenzhen, China
   follow: https://github.com/hlsky1988
   # Social Links
@@ -206,14 +208,13 @@ profile:
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills
   skills:
+    HTML+CSS: ★★★★☆
+    Javascript: ★★★★☆
     Git: ★★★☆☆
     Gulp: ★★★☆☆
-    Javascript: ★★★☆☆
-    HTML+CSS: ★★★☆☆
-    Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
-    Linux: ★☆☆☆☆
+    Webpack: ★★★☆☆
+    小程序: ★★★☆☆
+    Linux: ★★☆☆☆
   # My Personal Links
   links:
     Github: https://github.com/hlsky1988
@@ -231,11 +232,11 @@ profile:
     - React
     - Taro
   # My Personal Works
-  works:
-    name:
-      link: http://www.example.com
-      date: 2016
+  # works:
+  #   name:
+  #     link: http://www.example.com
+  #     date: 2016
   # My Personal Projects
-  projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+  # projects:
+  #   cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+  #   cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure

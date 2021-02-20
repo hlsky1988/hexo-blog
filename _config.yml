@@ -104,7 +104,9 @@ theme: pure
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: git@github.com:xxx/xxx.git
+  branch: master
 
 # 看板娘
 live2d:
@@ -125,3 +127,20 @@ live2d:
     show: true
   react:
     opacity: 0.7
+
+# hexo-neat
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'

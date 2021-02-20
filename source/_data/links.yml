@@ -6,4 +6,74 @@
 腾讯设计导航:
   link: http://idesign.qq.com/
   avatar: /images/favatar/idesign-logo.png
-  desc: 网罗全网高逼格的设计站点 
+  desc: 网罗全网高逼格的设计站点
+03k.org:
+  link: https://03k.org/kms.html
+  avatar: /images/favatar/SzsFox-logo.png
+  desc: 零散坑知识分享
+KMS Cloud:
+  link: https://kms.cangshui.net
+  avatar: https://cangshui.net/-otherweb/kms/logo.jpg
+  desc: KMS Cloud
+Office Tool Plus:
+  link: https://otp.landian.vip
+  avatar: https://otp.landian.vip/static/images/logo.png
+  desc: 基于 Office 部署工具 (ODT) 打造，可以很轻松地部署 Office
+MacWk:
+  link: https://macwk.com/
+  avatar: https://cdn.macwk.com/assets/images/home-banner-carry.png
+  desc: 只收录精品Mac应用
+Qwerty Learner:
+  link: https://qwerty-learner.vercel.app/
+  avatar: /images/favatar/SzsFox-logo.png
+  desc: 为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件
+Vercel:
+  link: https://vercel.com/
+  avatar: https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/60x60.png
+  desc: 部署你的静态站点
+netlify:
+  link: https://www.netlify.com/
+  avatar: https://www.netlify.com/v3/static/favicon/apple-touch-icon.png
+  desc: 部署你的静态站点
+Geist UI:
+  link: https://react.geist-ui.dev/zh-cn/guide/introduction
+  avatar: https://react.geist-ui.dev/images/logo.png
+  desc: Geist UI 是以 Geist 样式库 为基础实现的 React 版本
+LogolyPro:
+  link: https://www.logoly.pro/#/
+  avatar: https://www.logoly.pro/favicon.ico
+  desc: PH风格的LOGO生成器,恶搞可以,不要过分
+GitHub Proxy:
+  link: https://ghproxy.com/
+  avatar: https://github.com/fluidicon.png
+  desc: GitHub 文件加速下载服务.
+PP直连:
+  link: https://www.ppzhilian.com/
+  avatar: https://www.ppzhilian.com/app-logo-128x128.png
+  desc: 基于webRTC的文件传送
+小鹿快穿:
+  link: https://deershare.com/send
+  avatar: https://deershare.com/images/favicon.ico
+  desc: 简单安全高效的P2P文件传输服务
+JavaScript 算法与数据结构:
+  link: https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md
+  avatar: https://github.com/fluidicon.png
+  desc: JavaScript的各种算法实现
+React 面试500问:
+  link: https://github.com/sudheerj/reactjs-interview-questions
+  avatar: https://github.com/fluidicon.png
+面试每日一题:
+  link: https://q.shanyue.tech/
+  avatar: https://q.shanyue.tech/favicon.ico
+  desc: 互联网大厂面试每日一题
+HTML To Markdown:
+  link: https://devtool.tech/html-md
+  avatar: https://q.shanyue.tech/favicon.ico
+  desc: HTML To Markdown
+2021春季跳槽飞书大佬总结:前端:
+  link: https://bitable.feishu.cn/app8Ok6k9qafpMkgyRbfgxeEnet?from=logout&table=tblzZHf2Ix3YtxPM&view=vew9iquA45
+  avatar: https://p1-hera.byteimg.com/tos-cn-i-jbbdkfciu3/a0a0dca11b1741cd9f3a03d6e2f54b0b~tplv-jbbdkfciu3-image:0:0.image
+Microsoft Math Solver:
+  link: https://mathsolver.microsoft.com/zh
+  avatar: https://bingedu.azureedge.net/mathuxjs/_next/static/images/AppLogo-65fbed3fe3858dc1ba6208626993332d.png
+  desc: 获取你的数学题的逐步求解过程,给娃预备着吧
