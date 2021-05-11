@@ -32,7 +32,8 @@ date: 2021-05-11 16:53:50
       - 即脚本开头 `#!` 和之后的内容,它声明了脚本的解释程序,如缺失,则默认使用 shell 去解释当前脚本
       - 需要使用绝对路径
 1.  添加执行权限并运行
-    - ```
+    - 🌰
+      ```sh
       chmod +x ./script.mjs
       ./script.mjs
       ```
@@ -82,7 +83,8 @@ date: 2021-05-11 16:53:50
 
     1.  cd
 
-        - ```js
+        - 🌰
+          ```js
           cd('/tmp')
           await $`pwd` // outputs /tmp
           ```
@@ -105,7 +107,9 @@ date: 2021-05-11 16:53:50
 
         - 这是 [readline](https://nodejs.org/api/readline.html) 的封装
 
-          - ```ts
+          - 🌰
+
+            ```ts
             type QuestionOptions = { choices: string[] }
 
             function question(
@@ -123,13 +127,15 @@ date: 2021-05-11 16:53:50
           ```
 
     1.  [chalk](https://www.npmjs.com/package/chalk)
-        - ```js
+        - 🌰
+          ```js
           console.log(chalk.blue('Hello world!'))
           ```
     1.  fs
 
         - `fs`可直接使用,不需要`require`或者`import`
-        - ```js
+        - 🌰
+          ```js
           let content = await fs.readFile('./package.json')
           ```
         - 默认导入 Promise 版本,等于以下写法
